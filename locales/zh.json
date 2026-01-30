@@ -43,5 +43,19 @@
   },
   "CTAButton": {
     "title": "获取源码"
+  },
+  "Generator": {
+    "title": "AI 情侣头像生成器",
+    "description": "上传一张参考图，描述你想要的风格，生成专属情侣头像。",
+    "upload_title": "上传参考图片",
+    "upload_tip": "支持 JPG/PNG/WEBP, 最大 5MB",
+    "prompt_label": "风格描述",
+    "prompt_placeholder": "例如：二次元风格，可爱唯美，夏日祭背景...",
+    "generate_btn": "开始生成",
+    "generating_btn": "正在绘制梦境...",
+    "remaining_text": "今日剩余次数: {count}",
+    "limit_reached": "今日 5 次额度已用完，请明天再来！",
+    "download_btn": "保存图片",
+    "placeholder_text": "生成后的头像将显示在这里"
   }
 }

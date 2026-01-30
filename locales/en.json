@@ -43,5 +43,19 @@
   },
   "CTAButton": {
     "title": "Get Source Code"
+  },
+  "Generator": {
+    "title": "AI Couple Avatar Generator",
+    "description": "Upload a reference image and describe your style to create unique couple avatars.",
+    "upload_title": "Upload Reference Image",
+    "upload_tip": "Supports JPG/PNG/WEBP, Max 5MB",
+    "prompt_label": "Style Description",
+    "prompt_placeholder": "E.g., Anime style, cute and aesthetic, summer festival background...",
+    "generate_btn": "Generate Now",
+    "generating_btn": "Dreaming...",
+    "remaining_text": "Daily Limit Remaining: {count}",
+    "limit_reached": "Daily limit of 5 reached. Please come back tomorrow!",
+    "download_btn": "Save Image",
+    "placeholder_text": "Generated avatars will appear here"
   }
 }

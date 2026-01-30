@@ -208,6 +208,39 @@ export const FEATURES_RU = [
   },
 ];
 
+export const FEATURES_KO = [
+  {
+    title: "오픈 소스의 장점",
+    content: "완전 무료이며 풍부한 사용자 정의 옵션을 제공합니다.",
+    icon: BsGithub,
+  },
+  {
+    title: "반응형 디자인",
+    content: "모든 기기에서 최적의 디스플레이를 보장하도록 세심하게 설계된 템플릿입니다.",
+    icon: FaMobileScreenButton,
+  },
+  {
+    title: "쉬운 사용자 정의",
+    content: "코딩 지식 없이도 색상, 글꼴 및 레이아웃을 쉽게 변경할 수 있습니다.",
+    icon: FaToolbox,
+  },
+  {
+    title: "SEO 최적화",
+    content: "웹 사이트의 검색 가능성을 높이기 위해 검색 엔진 최적화를 염두에 두고 구축된 템플릿입니다.",
+    icon: MagnetIcon,
+  },
+  {
+    title: "원클릭 배포",
+    content: "즉각적인 웹 사이트 게시를 위해 주요 웹 호스팅 서비스와 긴밀하게 통합됩니다.",
+    icon: MdCloudUpload,
+  },
+  {
+    title: "글로벌화 지원",
+    content: "다국어를 지원하여 귀하의 웹 사이트를 전 세계 잠재 고객에게 매력적으로 만듭니다.",
+    icon: FaEarthAsia,
+  },
+];
+
 interface FeaturesCollection {
   [key: `FEATURES_${string}`]: {
     title: string;
@@ -222,5 +255,6 @@ export const ALL_FEATURES: FeaturesCollection = {
   FEATURES_JA,
   FEATURES_AR,
   FEATURES_ES,
-  FEATURES_RU
+  FEATURES_RU,
+  FEATURES_KO,
 }

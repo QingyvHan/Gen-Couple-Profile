@@ -1,7 +1,7 @@
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
-export const locales = ["", "en", "en-US", "zh", "zh-CN", "zh-TW", 'zh-HK', 'ja', "ar", "es", "ru"];
+export const locales = ["", "en", "en-US", "zh", "zh-CN", "zh-TW", 'zh-HK', 'ja', "ar", "es", "ru", "ko"];
 export const localeNames: any = {
   en: "🇺🇸 English",
   zh: "🇨🇳 中文",
@@ -9,6 +9,7 @@ export const localeNames: any = {
   ar: "🇸🇦 العربية",
   es: "🇪🇸 Español",
   ru: "🇷🇺 Русский",
+  ko: "🇰🇷 한국어",
 };
 export const defaultLocale = "en";
 
@@ -27,6 +28,7 @@ const dictionaries: any = {
   ar: () => import("@/locales/ar.json").then((module) => module.default),
   es: () => import("@/locales/es.json").then((module) => module.default),
   ru: () => import("@/locales/ru.json").then((module) => module.default),
+  ko: () => import("@/locales/ko.json").then((module) => module.default),
 };
 
 export const getDictionary = async (locale: string) => {

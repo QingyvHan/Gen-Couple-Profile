@@ -42,5 +42,19 @@
   },
   "CTAButton": {
     "title": "Obtener Plantilla"
+  },
+  "Generator": {
+    "title": "Generador de Avatares de Pareja con IA",
+    "description": "Sube una imagen de referencia y describe tu estilo para crear avatares de pareja únicos.",
+    "upload_title": "Subir Imagen de Referencia",
+    "upload_tip": "Soporta JPG/PNG/WEBP, Máx 5MB",
+    "prompt_label": "Descripción del Estilo",
+    "prompt_placeholder": "Ej: Estilo anime, lindo y estético, fondo de festival de verano...",
+    "generate_btn": "Generar Ahora",
+    "generating_btn": "Soñando...",
+    "remaining_text": "Límite Diario Restante: {count}",
+    "limit_reached": "Límite diario de 5 alcanzado. ¡Por favor vuelve mañana!",
+    "download_btn": "Guardar Imagen",
+    "placeholder_text": "Los avatares generados aparecerán aquí"
   }
 }

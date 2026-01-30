@@ -43,5 +43,19 @@
   },
   "CTAButton": {
     "title": "テンプレートを入手"
+  },
+  "Generator": {
+    "title": "AI カップルアバタージェネレーター",
+    "description": "参照画像をアップロードし、スタイルを記述して、ユニークなカップルアバターを作成します。",
+    "upload_title": "参照画像をアップロード",
+    "upload_tip": "JPG/PNG/WEBP対応、最大5MB",
+    "prompt_label": "スタイルの説明",
+    "prompt_placeholder": "例：アニメスタイル、キュートで美的、夏祭りの背景...",
+    "generate_btn": "今すぐ生成",
+    "generating_btn": "夢を描いています...",
+    "remaining_text": "本日の残り回数: {count}",
+    "limit_reached": "本日の制限（5回）に達しました。明日また来てください！",
+    "download_btn": "画像を保存",
+    "placeholder_text": "生成されたアバターはここに表示されます"
   }
 }
